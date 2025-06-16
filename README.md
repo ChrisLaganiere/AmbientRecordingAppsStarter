@@ -27,6 +27,17 @@ yarn
 yarn dev
 ```
 
+### Running iOS App Locally
+
+Running a native iOS application requires macOS and Xcode.
+
+1. **Prereqs**
+    - macOS 12+, **Xcode 15**+ (free on the Mac App Store)
+    - No paid Apple Developer account required—Xcode Simulator works out-of-the-box. If you do want to run on a physical device you can use a free Apple ID for code-signing.
+2. **Run**
+    - Choose **“iPhone 15 Pro (Simulator)”** and press ▶️. Xcode will build & launch.
+    - Confirm you can **create and view appointments** (server must be running).
+
 ### Creating records
 
 The app is capable of creating both Appointment and Recording entities. Additionally, there are some scripts in `MockServer/samples` that make use of the same API through the command line, to test bi-directional sync.

@@ -1,0 +1,1241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F32CF5F2B9CC39B00D04E98 /* AmbientRecordingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF5E2B9CC39B00D04E98 /* AmbientRecordingAppTests.swift */; };
+		3F32CF692B9CC39C00D04E98 /* AmbientRecordingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF682B9CC39C00D04E98 /* AmbientRecordingAppUITests.swift */; };
+		3F32CF6B2B9CC39C00D04E98 /* AmbientRecordingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF6A2B9CC39C00D04E98 /* AmbientRecordingAppUITestsLaunchTests.swift */; };
+		3F32CF852B9CEB3600D04E98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F32CF7C2B9CEB3600D04E98 /* Preview Assets.xcassets */; };
+		3F32CF872B9CEB3600D04E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F32CF802B9CEB3600D04E98 /* Assets.xcassets */; };
+		3F32CF882B9CEB3600D04E98 /* AmbientRecordingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF832B9CEB3600D04E98 /* AmbientRecordingApp.swift */; };
+		3F32CF892B9CEB3600D04E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF842B9CEB3600D04E98 /* ContentView.swift */; };
+		3F32CF962B9D39C800D04E98 /* Recording+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF922B9D39C800D04E98 /* Recording+CoreDataClass.swift */; };
+		3F32CF972B9D39C800D04E98 /* Recording+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF932B9D39C800D04E98 /* Recording+CoreDataProperties.swift */; };
+		3F32CF982B9D39C800D04E98 /* Appointment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF942B9D39C800D04E98 /* Appointment+CoreDataClass.swift */; };
+		3F32CF992B9D39C800D04E98 /* Appointment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF952B9D39C800D04E98 /* Appointment+CoreDataProperties.swift */; };
+		3F32CFBB2B9D3B5B00D04E98 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF9B2B9D3B5B00D04E98 /* HTTPMethod.swift */; };
+		3F32CFBC2B9D3B5B00D04E98 /* APIEndpointRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF9D2B9D3B5B00D04E98 /* APIEndpointRequest.swift */; };
+		3F32CFBD2B9D3B5B00D04E98 /* APIEndpointResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF9E2B9D3B5B00D04E98 /* APIEndpointResponse.swift */; };
+		3F32CFBE2B9D3B5B00D04E98 /* JSONEndpointRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CF9F2B9D3B5B00D04E98 /* JSONEndpointRequest.swift */; };
+		3F32CFBF2B9D3B5B00D04E98 /* JSONEndpointResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFA02B9D3B5B00D04E98 /* JSONEndpointResponse.swift */; };
+		3F32CFC02B9D3B5B00D04E98 /* MockNetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFA22B9D3B5B00D04E98 /* MockNetworkSession.swift */; };
+		3F32CFC12B9D3B5B00D04E98 /* MockNetworkSessionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFA32B9D3B5B00D04E98 /* MockNetworkSessionBuilder.swift */; };
+		3F32CFC22B9D3B5B00D04E98 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFA52B9D3B5B00D04E98 /* APIService.swift */; };
+		3F32CFC32B9D3B5B00D04E98 /* APIServing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFA62B9D3B5B00D04E98 /* APIServing.swift */; };
+		3F32CFC42B9D3B5B00D04E98 /* DefaultNetworkSessionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFA72B9D3B5B00D04E98 /* DefaultNetworkSessionBuilder.swift */; };
+		3F32CFC52B9D3B5B00D04E98 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFA82B9D3B5B00D04E98 /* NetworkSession.swift */; };
+		3F32CFC62B9D3B5B00D04E98 /* NetworkSessionBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFA92B9D3B5B00D04E98 /* NetworkSessionBuilding.swift */; };
+		3F32CFC82B9D3B5B00D04E98 /* CoreDataPersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFAD2B9D3B5B00D04E98 /* CoreDataPersistenceController.swift */; };
+		3F32CFC92B9D3B5B00D04E98 /* CoreDataPersisting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFAE2B9D3B5B00D04E98 /* CoreDataPersisting.swift */; };
+		3F32CFCA2B9D3B5B00D04E98 /* Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFB02B9D3B5B00D04E98 /* Fetchable.swift */; };
+		3F32CFCB2B9D3B5B00D04E98 /* FetchableResultsPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFB12B9D3B5B00D04E98 /* FetchableResultsPublisher.swift */; };
+		3F32CFCC2B9D3B5B00D04E98 /* FetchableResultsPublishing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFB22B9D3B5B00D04E98 /* FetchableResultsPublishing.swift */; };
+		3F32CFCD2B9D3B5B00D04E98 /* Filtering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFB32B9D3B5B00D04E98 /* Filtering.swift */; };
+		3F32CFCE2B9D3B5B00D04E98 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFB42B9D3B5B00D04E98 /* Sorting.swift */; };
+		3F32CFD32B9D3B6700D04E98 /* Appointment+Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFD22B9D3B6700D04E98 /* Appointment+Fetchable.swift */; };
+		3F32CFD52B9D3BC100D04E98 /* Recording+Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFD42B9D3BC100D04E98 /* Recording+Fetchable.swift */; };
+		3F32CFD72B9D3CA900D04E98 /* Appointment+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFD62B9D3CA800D04E98 /* Appointment+JSON.swift */; };
+		3F32CFD92B9D3D9700D04E98 /* Recording+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFD82B9D3D9700D04E98 /* Recording+JSON.swift */; };
+		3F32CFDD2B9D3E5700D04E98 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFDC2B9D3E5700D04E98 /* Date+Additions.swift */; };
+		3F32CFE22B9D423B00D04E98 /* OutboxServing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFE12B9D423B00D04E98 /* OutboxServing.swift */; };
+		3F32CFE52B9D42D600D04E98 /* NetworkMonitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFE42B9D42D600D04E98 /* NetworkMonitoring.swift */; };
+		3F32CFE72B9D437200D04E98 /* NetworkMonitoringService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFE62B9D437200D04E98 /* NetworkMonitoringService.swift */; };
+		3F32CFE92B9D45A100D04E98 /* OutboxService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFE82B9D45A100D04E98 /* OutboxService.swift */; };
+		3F32CFEC2B9D495C00D04E98 /* AmbientAPIServing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFEB2B9D495C00D04E98 /* AmbientAPIServing.swift */; };
+		3F32CFEE2B9D4A7400D04E98 /* AmbientAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFED2B9D4A7400D04E98 /* AmbientAPIService.swift */; };
+		3F32CFF12B9D4B0200D04E98 /* PublishingIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFF02B9D4B0200D04E98 /* PublishingIntention.swift */; };
+		3F32CFF32B9D4B6F00D04E98 /* PendingPublish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFF22B9D4B6F00D04E98 /* PendingPublish.swift */; };
+		3F32CFF62B9D4C1C00D04E98 /* Codable+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFF52B9D4C1C00D04E98 /* Codable+Additions.swift */; };
+		3F32CFFA2B9D4E3200D04E98 /* AppointmentPublishIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFF92B9D4E3200D04E98 /* AppointmentPublishIntention.swift */; };
+		3F32CFFC2B9D4F4100D04E98 /* Appointment+PublishingIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFFB2B9D4F4100D04E98 /* Appointment+PublishingIntention.swift */; };
+		3F32CFFF2B9D4F8F00D04E98 /* Recording+PublishingIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFFD2B9D4F8F00D04E98 /* Recording+PublishingIntention.swift */; };
+		3F32D0002B9D4F8F00D04E98 /* RecordingPublishIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFFE2B9D4F8F00D04E98 /* RecordingPublishIntention.swift */; };
+		3F32D0042B9D534700D04E98 /* QueryAppointmentsRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0032B9D534700D04E98 /* QueryAppointmentsRequestBody.swift */; };
+		3F32D0062B9D53A600D04E98 /* QueryAppointmentsResponseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0052B9D53A600D04E98 /* QueryAppointmentsResponseBody.swift */; };
+		3F32D0092B9D53ED00D04E98 /* AmbientAPIStatusObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0082B9D53ED00D04E98 /* AmbientAPIStatusObject.swift */; };
+		3F32D00B2B9D561E00D04E98 /* AmbientPaginationMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D00A2B9D561E00D04E98 /* AmbientPaginationMetadata.swift */; };
+		3F32D00E2B9D56E500D04E98 /* QueryAppointmentsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D00D2B9D56E500D04E98 /* QueryAppointmentsOperation.swift */; };
+		3F32D0122B9D571C00D04E98 /* TaskBasedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D00F2B9D571C00D04E98 /* TaskBasedOperation.swift */; };
+		3F32D0132B9D571C00D04E98 /* TaskBasedOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0102B9D571C00D04E98 /* TaskBasedOperationQueue.swift */; };
+		3F32D0152B9D582A00D04E98 /* FetchPageOfAppointmentsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0142B9D582A00D04E98 /* FetchPageOfAppointmentsOperation.swift */; };
+		3F32D0172B9D593000D04E98 /* AmbientEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0162B9D593000D04E98 /* AmbientEndpoints.swift */; };
+		3F32D0192B9D5BD300D04E98 /* Collection+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0182B9D5BD300D04E98 /* Collection+Additions.swift */; };
+		3F32D01E2B9D5D2500D04E98 /* FetchPageOfRecordingsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D01A2B9D5D2500D04E98 /* FetchPageOfRecordingsOperation.swift */; };
+		3F32D01F2B9D5D2500D04E98 /* QueryRecordingsRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D01B2B9D5D2500D04E98 /* QueryRecordingsRequestBody.swift */; };
+		3F32D0202B9D5D2500D04E98 /* QueryRecordingsResponseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D01C2B9D5D2500D04E98 /* QueryRecordingsResponseBody.swift */; };
+		3F32D0222B9D5DE100D04E98 /* QueryRecordingsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0212B9D5DE100D04E98 /* QueryRecordingsOperation.swift */; };
+		3F32D0242B9D5EDA00D04E98 /* QueryRecordingsRequestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0232B9D5EDA00D04E98 /* QueryRecordingsRequestParams.swift */; };
+		3F32D0262B9D673D00D04E98 /* Appointment+Relationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0252B9D673D00D04E98 /* Appointment+Relationships.swift */; };
+		3F32D0282B9D679700D04E98 /* Recording+Relationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0272B9D679700D04E98 /* Recording+Relationships.swift */; };
+		3F32D02A2B9D67F000D04E98 /* Refreshing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0292B9D67F000D04E98 /* Refreshing.swift */; };
+		3F32D02C2B9D68A400D04E98 /* RefreshService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D02B2B9D68A400D04E98 /* RefreshService.swift */; };
+		3F32D02F2B9D696600D04E98 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D02E2B9D696600D04E98 /* TaskStore.swift */; };
+		3F32D0322B9D6F4A00D04E98 /* AmbientRecordingAppDataDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0312B9D6F4A00D04E98 /* AmbientRecordingAppDataDependencies.swift */; };
+		3F32D0352B9D74D100D04E98 /* AppointmentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0342B9D74D100D04E98 /* AppointmentsList.swift */; };
+		3F32D0372B9D757900D04E98 /* AppointmentsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0362B9D757900D04E98 /* AppointmentsListViewModel.swift */; };
+		3F32D0392B9D7B2E00D04E98 /* CreateRecordingRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0382B9D7B2E00D04E98 /* CreateRecordingRequestBody.swift */; };
+		3F32D03C2B9D7D7500D04E98 /* CreateRecordingResponseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D03B2B9D7D7500D04E98 /* CreateRecordingResponseBody.swift */; };
+		3F32D03E2B9D7F8B00D04E98 /* CreateRecordingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D03D2B9D7F8B00D04E98 /* CreateRecordingOperation.swift */; };
+		3F32D0412B9D917C00D04E98 /* AudioRecording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0402B9D917C00D04E98 /* AudioRecording.swift */; };
+		3F32D0432B9D92D200D04E98 /* AudioRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0422B9D92D200D04E98 /* AudioRecordingService.swift */; };
+		3F32D0452B9D9DE800D04E98 /* AppointmentsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0442B9D9DE800D04E98 /* AppointmentsListItem.swift */; };
+		3F32D0482B9DA85C00D04E98 /* AppointmentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0472B9DA85C00D04E98 /* AppointmentDetailsView.swift */; };
+		3F32D04A2B9DA87300D04E98 /* AppointmentDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0492B9DA87300D04E98 /* AppointmentDetailsViewModel.swift */; };
+		3F32D04E2B9DAFC900D04E98 /* CreateAppointmentRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D04B2B9DAFC900D04E98 /* CreateAppointmentRequestBody.swift */; };
+		3F32D04F2B9DAFC900D04E98 /* CreateAppointmentResponseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D04C2B9DAFC900D04E98 /* CreateAppointmentResponseBody.swift */; };
+		3F32D0512B9DB08500D04E98 /* CreateAppointmentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0502B9DB08500D04E98 /* CreateAppointmentOperation.swift */; };
+		3F32D0532B9DC32A00D04E98 /* RecordingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32D0522B9DC32A00D04E98 /* RecordingListItem.swift */; };
+		83F902632DFFF09E00DA0BBA /* AmbientRecordingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83F902612DFFF09E00DA0BBA /* AmbientRecordingApp.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F32CF5B2B9CC39B00D04E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F32CF3C2B9CC39A00D04E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F32CF432B9CC39A00D04E98;
+			remoteInfo = AmbientRecordingApp;
+		};
+		3F32CF652B9CC39C00D04E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F32CF3C2B9CC39A00D04E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F32CF432B9CC39A00D04E98;
+			remoteInfo = AmbientRecordingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F32CF442B9CC39A00D04E98 /* AmbientRecordingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbientRecordingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F32CF5A2B9CC39B00D04E98 /* AmbientRecordingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbientRecordingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F32CF5E2B9CC39B00D04E98 /* AmbientRecordingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientRecordingAppTests.swift; sourceTree = "<group>"; };
+		3F32CF642B9CC39C00D04E98 /* AmbientRecordingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbientRecordingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F32CF682B9CC39C00D04E98 /* AmbientRecordingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientRecordingAppUITests.swift; sourceTree = "<group>"; };
+		3F32CF6A2B9CC39C00D04E98 /* AmbientRecordingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientRecordingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F32CF7C2B9CEB3600D04E98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F32CF7E2B9CEB3600D04E98 /* AmbientRecordingApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = AmbientRecordingApp.entitlements; sourceTree = "<group>"; };
+		3F32CF802B9CEB3600D04E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F32CF832B9CEB3600D04E98 /* AmbientRecordingApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbientRecordingApp.swift; sourceTree = "<group>"; };
+		3F32CF842B9CEB3600D04E98 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F32CF922B9D39C800D04E98 /* Recording+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recording+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F32CF932B9D39C800D04E98 /* Recording+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recording+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F32CF942B9D39C800D04E98 /* Appointment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appointment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F32CF952B9D39C800D04E98 /* Appointment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appointment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F32CF9B2B9D3B5B00D04E98 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		3F32CF9D2B9D3B5B00D04E98 /* APIEndpointRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpointRequest.swift; sourceTree = "<group>"; };
+		3F32CF9E2B9D3B5B00D04E98 /* APIEndpointResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpointResponse.swift; sourceTree = "<group>"; };
+		3F32CF9F2B9D3B5B00D04E98 /* JSONEndpointRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEndpointRequest.swift; sourceTree = "<group>"; };
+		3F32CFA02B9D3B5B00D04E98 /* JSONEndpointResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEndpointResponse.swift; sourceTree = "<group>"; };
+		3F32CFA22B9D3B5B00D04E98 /* MockNetworkSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkSession.swift; sourceTree = "<group>"; };
+		3F32CFA32B9D3B5B00D04E98 /* MockNetworkSessionBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkSessionBuilder.swift; sourceTree = "<group>"; };
+		3F32CFA52B9D3B5B00D04E98 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		3F32CFA62B9D3B5B00D04E98 /* APIServing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServing.swift; sourceTree = "<group>"; };
+		3F32CFA72B9D3B5B00D04E98 /* DefaultNetworkSessionBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultNetworkSessionBuilder.swift; sourceTree = "<group>"; };
+		3F32CFA82B9D3B5B00D04E98 /* NetworkSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		3F32CFA92B9D3B5B00D04E98 /* NetworkSessionBuilding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSessionBuilding.swift; sourceTree = "<group>"; };
+		3F32CFAB2B9D3B5B00D04E98 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F32CFAD2B9D3B5B00D04E98 /* CoreDataPersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataPersistenceController.swift; sourceTree = "<group>"; };
+		3F32CFAE2B9D3B5B00D04E98 /* CoreDataPersisting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataPersisting.swift; sourceTree = "<group>"; };
+		3F32CFB02B9D3B5B00D04E98 /* Fetchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetchable.swift; sourceTree = "<group>"; };
+		3F32CFB12B9D3B5B00D04E98 /* FetchableResultsPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchableResultsPublisher.swift; sourceTree = "<group>"; };
+		3F32CFB22B9D3B5B00D04E98 /* FetchableResultsPublishing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchableResultsPublishing.swift; sourceTree = "<group>"; };
+		3F32CFB32B9D3B5B00D04E98 /* Filtering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filtering.swift; sourceTree = "<group>"; };
+		3F32CFB42B9D3B5B00D04E98 /* Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		3F32CFB92B9D3B5B00D04E98 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F32CFD22B9D3B6700D04E98 /* Appointment+Fetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appointment+Fetchable.swift"; sourceTree = "<group>"; };
+		3F32CFD42B9D3BC100D04E98 /* Recording+Fetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recording+Fetchable.swift"; sourceTree = "<group>"; };
+		3F32CFD62B9D3CA800D04E98 /* Appointment+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appointment+JSON.swift"; sourceTree = "<group>"; };
+		3F32CFD82B9D3D9700D04E98 /* Recording+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recording+JSON.swift"; sourceTree = "<group>"; };
+		3F32CFDC2B9D3E5700D04E98 /* Date+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Additions.swift"; sourceTree = "<group>"; };
+		3F32CFE12B9D423B00D04E98 /* OutboxServing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutboxServing.swift; sourceTree = "<group>"; };
+		3F32CFE42B9D42D600D04E98 /* NetworkMonitoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitoring.swift; sourceTree = "<group>"; };
+		3F32CFE62B9D437200D04E98 /* NetworkMonitoringService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitoringService.swift; sourceTree = "<group>"; };
+		3F32CFE82B9D45A100D04E98 /* OutboxService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutboxService.swift; sourceTree = "<group>"; };
+		3F32CFEB2B9D495C00D04E98 /* AmbientAPIServing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientAPIServing.swift; sourceTree = "<group>"; };
+		3F32CFED2B9D4A7400D04E98 /* AmbientAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientAPIService.swift; sourceTree = "<group>"; };
+		3F32CFF02B9D4B0200D04E98 /* PublishingIntention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishingIntention.swift; sourceTree = "<group>"; };
+		3F32CFF22B9D4B6F00D04E98 /* PendingPublish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingPublish.swift; sourceTree = "<group>"; };
+		3F32CFF52B9D4C1C00D04E98 /* Codable+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Additions.swift"; sourceTree = "<group>"; };
+		3F32CFF92B9D4E3200D04E98 /* AppointmentPublishIntention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentPublishIntention.swift; sourceTree = "<group>"; };
+		3F32CFFB2B9D4F4100D04E98 /* Appointment+PublishingIntention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appointment+PublishingIntention.swift"; sourceTree = "<group>"; };
+		3F32CFFD2B9D4F8F00D04E98 /* Recording+PublishingIntention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recording+PublishingIntention.swift"; sourceTree = "<group>"; };
+		3F32CFFE2B9D4F8F00D04E98 /* RecordingPublishIntention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingPublishIntention.swift; sourceTree = "<group>"; };
+		3F32D0032B9D534700D04E98 /* QueryAppointmentsRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryAppointmentsRequestBody.swift; sourceTree = "<group>"; };
+		3F32D0052B9D53A600D04E98 /* QueryAppointmentsResponseBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryAppointmentsResponseBody.swift; sourceTree = "<group>"; };
+		3F32D0082B9D53ED00D04E98 /* AmbientAPIStatusObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientAPIStatusObject.swift; sourceTree = "<group>"; };
+		3F32D00A2B9D561E00D04E98 /* AmbientPaginationMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientPaginationMetadata.swift; sourceTree = "<group>"; };
+		3F32D00D2B9D56E500D04E98 /* QueryAppointmentsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryAppointmentsOperation.swift; sourceTree = "<group>"; };
+		3F32D00F2B9D571C00D04E98 /* TaskBasedOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskBasedOperation.swift; sourceTree = "<group>"; };
+		3F32D0102B9D571C00D04E98 /* TaskBasedOperationQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskBasedOperationQueue.swift; sourceTree = "<group>"; };
+		3F32D0142B9D582A00D04E98 /* FetchPageOfAppointmentsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPageOfAppointmentsOperation.swift; sourceTree = "<group>"; };
+		3F32D0162B9D593000D04E98 /* AmbientEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientEndpoints.swift; sourceTree = "<group>"; };
+		3F32D0182B9D5BD300D04E98 /* Collection+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Additions.swift"; sourceTree = "<group>"; };
+		3F32D01A2B9D5D2500D04E98 /* FetchPageOfRecordingsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchPageOfRecordingsOperation.swift; sourceTree = "<group>"; };
+		3F32D01B2B9D5D2500D04E98 /* QueryRecordingsRequestBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryRecordingsRequestBody.swift; sourceTree = "<group>"; };
+		3F32D01C2B9D5D2500D04E98 /* QueryRecordingsResponseBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryRecordingsResponseBody.swift; sourceTree = "<group>"; };
+		3F32D0212B9D5DE100D04E98 /* QueryRecordingsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryRecordingsOperation.swift; sourceTree = "<group>"; };
+		3F32D0232B9D5EDA00D04E98 /* QueryRecordingsRequestParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryRecordingsRequestParams.swift; sourceTree = "<group>"; };
+		3F32D0252B9D673D00D04E98 /* Appointment+Relationships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appointment+Relationships.swift"; sourceTree = "<group>"; };
+		3F32D0272B9D679700D04E98 /* Recording+Relationships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recording+Relationships.swift"; sourceTree = "<group>"; };
+		3F32D0292B9D67F000D04E98 /* Refreshing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refreshing.swift; sourceTree = "<group>"; };
+		3F32D02B2B9D68A400D04E98 /* RefreshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshService.swift; sourceTree = "<group>"; };
+		3F32D02E2B9D696600D04E98 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		3F32D0312B9D6F4A00D04E98 /* AmbientRecordingAppDataDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientRecordingAppDataDependencies.swift; sourceTree = "<group>"; };
+		3F32D0342B9D74D100D04E98 /* AppointmentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsList.swift; sourceTree = "<group>"; };
+		3F32D0362B9D757900D04E98 /* AppointmentsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsListViewModel.swift; sourceTree = "<group>"; };
+		3F32D0382B9D7B2E00D04E98 /* CreateRecordingRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecordingRequestBody.swift; sourceTree = "<group>"; };
+		3F32D03B2B9D7D7500D04E98 /* CreateRecordingResponseBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecordingResponseBody.swift; sourceTree = "<group>"; };
+		3F32D03D2B9D7F8B00D04E98 /* CreateRecordingOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecordingOperation.swift; sourceTree = "<group>"; };
+		3F32D0402B9D917C00D04E98 /* AudioRecording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecording.swift; sourceTree = "<group>"; };
+		3F32D0422B9D92D200D04E98 /* AudioRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingService.swift; sourceTree = "<group>"; };
+		3F32D0442B9D9DE800D04E98 /* AppointmentsListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsListItem.swift; sourceTree = "<group>"; };
+		3F32D0472B9DA85C00D04E98 /* AppointmentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsView.swift; sourceTree = "<group>"; };
+		3F32D0492B9DA87300D04E98 /* AppointmentDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsViewModel.swift; sourceTree = "<group>"; };
+		3F32D04B2B9DAFC900D04E98 /* CreateAppointmentRequestBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAppointmentRequestBody.swift; sourceTree = "<group>"; };
+		3F32D04C2B9DAFC900D04E98 /* CreateAppointmentResponseBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAppointmentResponseBody.swift; sourceTree = "<group>"; };
+		3F32D0502B9DB08500D04E98 /* CreateAppointmentOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAppointmentOperation.swift; sourceTree = "<group>"; };
+		3F32D0522B9DC32A00D04E98 /* RecordingListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingListItem.swift; sourceTree = "<group>"; };
+		83F902622DFFF09E00DA0BBA /* AmbientRecordingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmbientRecordingApp.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F32CF412B9CC39A00D04E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F32CF572B9CC39B00D04E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F32CF612B9CC39C00D04E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F32CF3B2B9CC39A00D04E98 = {
+			isa = PBXGroup;
+			children = (
+				3F32CF8A2B9CEB4500D04E98 /* AmbientRecordingApp */,
+				3F32CF5D2B9CC39B00D04E98 /* AmbientRecordingAppTests */,
+				3F32CF672B9CC39C00D04E98 /* AmbientRecordingAppUITests */,
+				3F32CF452B9CC39A00D04E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F32CF452B9CC39A00D04E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF442B9CC39A00D04E98 /* AmbientRecordingApp.app */,
+				3F32CF5A2B9CC39B00D04E98 /* AmbientRecordingAppTests.xctest */,
+				3F32CF642B9CC39C00D04E98 /* AmbientRecordingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F32CF5D2B9CC39B00D04E98 /* AmbientRecordingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF5E2B9CC39B00D04E98 /* AmbientRecordingAppTests.swift */,
+			);
+			path = AmbientRecordingAppTests;
+			sourceTree = "<group>";
+		};
+		3F32CF672B9CC39C00D04E98 /* AmbientRecordingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF682B9CC39C00D04E98 /* AmbientRecordingAppUITests.swift */,
+				3F32CF6A2B9CC39C00D04E98 /* AmbientRecordingAppUITestsLaunchTests.swift */,
+			);
+			path = AmbientRecordingAppUITests;
+			sourceTree = "<group>";
+		};
+		3F32CF7D2B9CEB3600D04E98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF7C2B9CEB3600D04E98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F32CF812B9CEB3600D04E98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83F902612DFFF09E00DA0BBA /* AmbientRecordingApp.xcdatamodeld */,
+				3F32CF7D2B9CEB3600D04E98 /* Preview Content */,
+				3F32CF7E2B9CEB3600D04E98 /* AmbientRecordingApp.entitlements */,
+				3F32CF802B9CEB3600D04E98 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F32CF8A2B9CEB4500D04E98 /* AmbientRecordingApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF8E2B9D39A300D04E98 /* Data */,
+				3F32CFDA2B9D3E3100D04E98 /* Extensions */,
+				3F32CF9A2B9D3B3400D04E98 /* External */,
+				3F32CF812B9CEB3600D04E98 /* Resources */,
+				3F32D0302B9D6ECF00D04E98 /* Views */,
+				3F32CF832B9CEB3600D04E98 /* AmbientRecordingApp.swift */,
+				3F32D0312B9D6F4A00D04E98 /* AmbientRecordingAppDataDependencies.swift */,
+			);
+			path = AmbientRecordingApp;
+			sourceTree = "<group>";
+		};
+		3F32CF8E2B9D39A300D04E98 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF8F2B9D39AA00D04E98 /* Models */,
+				3F32CFDE2B9D421900D04E98 /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3F32CF8F2B9D39AA00D04E98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF912B9D39B800D04E98 /* Appointment */,
+				3F32CF902B9D39B200D04E98 /* Recording */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F32CF902B9D39B200D04E98 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF922B9D39C800D04E98 /* Recording+CoreDataClass.swift */,
+				3F32CF932B9D39C800D04E98 /* Recording+CoreDataProperties.swift */,
+				3F32CFD42B9D3BC100D04E98 /* Recording+Fetchable.swift */,
+				3F32CFD82B9D3D9700D04E98 /* Recording+JSON.swift */,
+				3F32D0272B9D679700D04E98 /* Recording+Relationships.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		3F32CF912B9D39B800D04E98 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF942B9D39C800D04E98 /* Appointment+CoreDataClass.swift */,
+				3F32CF952B9D39C800D04E98 /* Appointment+CoreDataProperties.swift */,
+				3F32CFD22B9D3B6700D04E98 /* Appointment+Fetchable.swift */,
+				3F32CFD62B9D3CA800D04E98 /* Appointment+JSON.swift */,
+				3F32D0252B9D673D00D04E98 /* Appointment+Relationships.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		3F32CF9A2B9D3B3400D04E98 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFAC2B9D3B5B00D04E98 /* MoreAPI */,
+				3F32CFBA2B9D3B5B00D04E98 /* MoreData */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		3F32CF9C2B9D3B5B00D04E98 /* Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF9B2B9D3B5B00D04E98 /* HTTPMethod.swift */,
+			);
+			path = Definitions;
+			sourceTree = "<group>";
+		};
+		3F32CFA12B9D3B5B00D04E98 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF9D2B9D3B5B00D04E98 /* APIEndpointRequest.swift */,
+				3F32CF9E2B9D3B5B00D04E98 /* APIEndpointResponse.swift */,
+				3F32CF9F2B9D3B5B00D04E98 /* JSONEndpointRequest.swift */,
+				3F32CFA02B9D3B5B00D04E98 /* JSONEndpointResponse.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		3F32CFA42B9D3B5B00D04E98 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFA22B9D3B5B00D04E98 /* MockNetworkSession.swift */,
+				3F32CFA32B9D3B5B00D04E98 /* MockNetworkSessionBuilder.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		3F32CFAA2B9D3B5B00D04E98 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFA42B9D3B5B00D04E98 /* MockData */,
+				3F32CFA52B9D3B5B00D04E98 /* APIService.swift */,
+				3F32CFA62B9D3B5B00D04E98 /* APIServing.swift */,
+				3F32CFA72B9D3B5B00D04E98 /* DefaultNetworkSessionBuilder.swift */,
+				3F32CFA82B9D3B5B00D04E98 /* NetworkSession.swift */,
+				3F32CFA92B9D3B5B00D04E98 /* NetworkSessionBuilding.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3F32CFAC2B9D3B5B00D04E98 /* MoreAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CF9C2B9D3B5B00D04E98 /* Definitions */,
+				3F32CFA12B9D3B5B00D04E98 /* Endpoints */,
+				3F32CFAA2B9D3B5B00D04E98 /* Service */,
+				3F32CFAB2B9D3B5B00D04E98 /* README.md */,
+			);
+			path = MoreAPI;
+			sourceTree = "<group>";
+		};
+		3F32CFAF2B9D3B5B00D04E98 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFAD2B9D3B5B00D04E98 /* CoreDataPersistenceController.swift */,
+				3F32CFAE2B9D3B5B00D04E98 /* CoreDataPersisting.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3F32CFB52B9D3B5B00D04E98 /* Fetchable */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFB02B9D3B5B00D04E98 /* Fetchable.swift */,
+				3F32CFB12B9D3B5B00D04E98 /* FetchableResultsPublisher.swift */,
+				3F32CFB22B9D3B5B00D04E98 /* FetchableResultsPublishing.swift */,
+				3F32CFB32B9D3B5B00D04E98 /* Filtering.swift */,
+				3F32CFB42B9D3B5B00D04E98 /* Sorting.swift */,
+			);
+			path = Fetchable;
+			sourceTree = "<group>";
+		};
+		3F32CFBA2B9D3B5B00D04E98 /* MoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFAF2B9D3B5B00D04E98 /* CoreData */,
+				3F32CFB52B9D3B5B00D04E98 /* Fetchable */,
+				3F32D0112B9D571C00D04E98 /* TaskBasedOperation */,
+				3F32D02D2B9D695B00D04E98 /* TaskStore */,
+				3F32CFB92B9D3B5B00D04E98 /* README.md */,
+			);
+			path = MoreData;
+			sourceTree = "<group>";
+		};
+		3F32CFDA2B9D3E3100D04E98 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFDB2B9D3E3F00D04E98 /* Foundation */,
+				3F32CFF42B9D4C1000D04E98 /* SwiftStdLib */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3F32CFDB2B9D3E3F00D04E98 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0182B9D5BD300D04E98 /* Collection+Additions.swift */,
+				3F32CFDC2B9D3E5700D04E98 /* Date+Additions.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		3F32CFDE2B9D421900D04E98 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D03F2B9D917300D04E98 /* AudioRecordingService */,
+				3F32CFEA2B9D494F00D04E98 /* AmbientAPIService */,
+				3F32CFE32B9D42BF00D04E98 /* NetworkMonitoringService */,
+				3F32CFE02B9D422C00D04E98 /* RefreshService */,
+				3F32CFDF2B9D422000D04E98 /* OutboxService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F32CFDF2B9D422000D04E98 /* OutboxService */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFF72B9D4E1C00D04E98 /* Appointment */,
+				3F32CFF82B9D4E2200D04E98 /* Recording */,
+				3F32CFE12B9D423B00D04E98 /* OutboxServing.swift */,
+				3F32CFE82B9D45A100D04E98 /* OutboxService.swift */,
+				3F32CFF22B9D4B6F00D04E98 /* PendingPublish.swift */,
+				3F32CFF02B9D4B0200D04E98 /* PublishingIntention.swift */,
+			);
+			path = OutboxService;
+			sourceTree = "<group>";
+		};
+		3F32CFE02B9D422C00D04E98 /* RefreshService */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0292B9D67F000D04E98 /* Refreshing.swift */,
+				3F32D02B2B9D68A400D04E98 /* RefreshService.swift */,
+			);
+			path = RefreshService;
+			sourceTree = "<group>";
+		};
+		3F32CFE32B9D42BF00D04E98 /* NetworkMonitoringService */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFE42B9D42D600D04E98 /* NetworkMonitoring.swift */,
+				3F32CFE62B9D437200D04E98 /* NetworkMonitoringService.swift */,
+			);
+			path = NetworkMonitoringService;
+			sourceTree = "<group>";
+		};
+		3F32CFEA2B9D494F00D04E98 /* AmbientAPIService */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0072B9D53D400D04E98 /* MessagesUtils */,
+				3F32D00C2B9D56D000D04E98 /* Operations */,
+				3F32CFEB2B9D495C00D04E98 /* AmbientAPIServing.swift */,
+				3F32CFED2B9D4A7400D04E98 /* AmbientAPIService.swift */,
+				3F32D0162B9D593000D04E98 /* AmbientEndpoints.swift */,
+			);
+			path = AmbientAPIService;
+			sourceTree = "<group>";
+		};
+		3F32CFF42B9D4C1000D04E98 /* SwiftStdLib */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFF52B9D4C1C00D04E98 /* Codable+Additions.swift */,
+			);
+			path = SwiftStdLib;
+			sourceTree = "<group>";
+		};
+		3F32CFF72B9D4E1C00D04E98 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFFB2B9D4F4100D04E98 /* Appointment+PublishingIntention.swift */,
+				3F32CFF92B9D4E3200D04E98 /* AppointmentPublishIntention.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		3F32CFF82B9D4E2200D04E98 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				3F32CFFD2B9D4F8F00D04E98 /* Recording+PublishingIntention.swift */,
+				3F32CFFE2B9D4F8F00D04E98 /* RecordingPublishIntention.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		3F32D0012B9D52DD00D04E98 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D04D2B9DAFC900D04E98 /* CreateAppointmentEndpoint */,
+				3F32D03A2B9D7B3300D04E98 /* CreateRecordingEndpoint */,
+				3F32D0022B9D52FB00D04E98 /* QueryAppointmentsEndpoint */,
+				3F32D01D2B9D5D2500D04E98 /* QueryRecordingsEndpoint */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		3F32D0022B9D52FB00D04E98 /* QueryAppointmentsEndpoint */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0142B9D582A00D04E98 /* FetchPageOfAppointmentsOperation.swift */,
+				3F32D0032B9D534700D04E98 /* QueryAppointmentsRequestBody.swift */,
+				3F32D0052B9D53A600D04E98 /* QueryAppointmentsResponseBody.swift */,
+			);
+			path = QueryAppointmentsEndpoint;
+			sourceTree = "<group>";
+		};
+		3F32D0072B9D53D400D04E98 /* MessagesUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0012B9D52DD00D04E98 /* Endpoints */,
+				3F32D0082B9D53ED00D04E98 /* AmbientAPIStatusObject.swift */,
+				3F32D00A2B9D561E00D04E98 /* AmbientPaginationMetadata.swift */,
+			);
+			path = MessagesUtils;
+			sourceTree = "<group>";
+		};
+		3F32D00C2B9D56D000D04E98 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0502B9DB08500D04E98 /* CreateAppointmentOperation.swift */,
+				3F32D03D2B9D7F8B00D04E98 /* CreateRecordingOperation.swift */,
+				3F32D00D2B9D56E500D04E98 /* QueryAppointmentsOperation.swift */,
+				3F32D0212B9D5DE100D04E98 /* QueryRecordingsOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		3F32D0112B9D571C00D04E98 /* TaskBasedOperation */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D00F2B9D571C00D04E98 /* TaskBasedOperation.swift */,
+				3F32D0102B9D571C00D04E98 /* TaskBasedOperationQueue.swift */,
+			);
+			path = TaskBasedOperation;
+			sourceTree = "<group>";
+		};
+		3F32D01D2B9D5D2500D04E98 /* QueryRecordingsEndpoint */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D01A2B9D5D2500D04E98 /* FetchPageOfRecordingsOperation.swift */,
+				3F32D01B2B9D5D2500D04E98 /* QueryRecordingsRequestBody.swift */,
+				3F32D01C2B9D5D2500D04E98 /* QueryRecordingsResponseBody.swift */,
+				3F32D0232B9D5EDA00D04E98 /* QueryRecordingsRequestParams.swift */,
+			);
+			path = QueryRecordingsEndpoint;
+			sourceTree = "<group>";
+		};
+		3F32D02D2B9D695B00D04E98 /* TaskStore */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D02E2B9D696600D04E98 /* TaskStore.swift */,
+			);
+			path = TaskStore;
+			sourceTree = "<group>";
+		};
+		3F32D0302B9D6ECF00D04E98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0462B9DA84E00D04E98 /* AppointmentDetails */,
+				3F32D0332B9D74C600D04E98 /* AppointmentsList */,
+				3F32CF842B9CEB3600D04E98 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F32D0332B9D74C600D04E98 /* AppointmentsList */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0442B9D9DE800D04E98 /* AppointmentsListItem.swift */,
+				3F32D0342B9D74D100D04E98 /* AppointmentsList.swift */,
+				3F32D0362B9D757900D04E98 /* AppointmentsListViewModel.swift */,
+			);
+			path = AppointmentsList;
+			sourceTree = "<group>";
+		};
+		3F32D03A2B9D7B3300D04E98 /* CreateRecordingEndpoint */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0382B9D7B2E00D04E98 /* CreateRecordingRequestBody.swift */,
+				3F32D03B2B9D7D7500D04E98 /* CreateRecordingResponseBody.swift */,
+			);
+			path = CreateRecordingEndpoint;
+			sourceTree = "<group>";
+		};
+		3F32D03F2B9D917300D04E98 /* AudioRecordingService */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0402B9D917C00D04E98 /* AudioRecording.swift */,
+				3F32D0422B9D92D200D04E98 /* AudioRecordingService.swift */,
+			);
+			path = AudioRecordingService;
+			sourceTree = "<group>";
+		};
+		3F32D0462B9DA84E00D04E98 /* AppointmentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D0472B9DA85C00D04E98 /* AppointmentDetailsView.swift */,
+				3F32D0492B9DA87300D04E98 /* AppointmentDetailsViewModel.swift */,
+				3F32D0522B9DC32A00D04E98 /* RecordingListItem.swift */,
+			);
+			path = AppointmentDetails;
+			sourceTree = "<group>";
+		};
+		3F32D04D2B9DAFC900D04E98 /* CreateAppointmentEndpoint */ = {
+			isa = PBXGroup;
+			children = (
+				3F32D04B2B9DAFC900D04E98 /* CreateAppointmentRequestBody.swift */,
+				3F32D04C2B9DAFC900D04E98 /* CreateAppointmentResponseBody.swift */,
+			);
+			path = CreateAppointmentEndpoint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F32CF432B9CC39A00D04E98 /* AmbientRecordingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F32CF6E2B9CC39C00D04E98 /* Build configuration list for PBXNativeTarget "AmbientRecordingApp" */;
+			buildPhases = (
+				3F32CF402B9CC39A00D04E98 /* Sources */,
+				3F32CF412B9CC39A00D04E98 /* Frameworks */,
+				3F32CF422B9CC39A00D04E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmbientRecordingApp;
+			productName = AmbientRecordingApp;
+			productReference = 3F32CF442B9CC39A00D04E98 /* AmbientRecordingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F32CF592B9CC39B00D04E98 /* AmbientRecordingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F32CF712B9CC39C00D04E98 /* Build configuration list for PBXNativeTarget "AmbientRecordingAppTests" */;
+			buildPhases = (
+				3F32CF562B9CC39B00D04E98 /* Sources */,
+				3F32CF572B9CC39B00D04E98 /* Frameworks */,
+				3F32CF582B9CC39B00D04E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F32CF5C2B9CC39B00D04E98 /* PBXTargetDependency */,
+			);
+			name = AmbientRecordingAppTests;
+			productName = AmbientRecordingAppTests;
+			productReference = 3F32CF5A2B9CC39B00D04E98 /* AmbientRecordingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F32CF632B9CC39C00D04E98 /* AmbientRecordingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F32CF742B9CC39C00D04E98 /* Build configuration list for PBXNativeTarget "AmbientRecordingAppUITests" */;
+			buildPhases = (
+				3F32CF602B9CC39C00D04E98 /* Sources */,
+				3F32CF612B9CC39C00D04E98 /* Frameworks */,
+				3F32CF622B9CC39C00D04E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F32CF662B9CC39C00D04E98 /* PBXTargetDependency */,
+			);
+			name = AmbientRecordingAppUITests;
+			productName = AmbientRecordingAppUITests;
+			productReference = 3F32CF642B9CC39C00D04E98 /* AmbientRecordingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F32CF3C2B9CC39A00D04E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3F32CF432B9CC39A00D04E98 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+					3F32CF592B9CC39B00D04E98 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3F32CF432B9CC39A00D04E98;
+					};
+					3F32CF632B9CC39C00D04E98 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3F32CF432B9CC39A00D04E98;
+					};
+				};
+			};
+			buildConfigurationList = 3F32CF3F2B9CC39A00D04E98 /* Build configuration list for PBXProject "AmbientRecordingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F32CF3B2B9CC39A00D04E98;
+			productRefGroup = 3F32CF452B9CC39A00D04E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F32CF432B9CC39A00D04E98 /* AmbientRecordingApp */,
+				3F32CF592B9CC39B00D04E98 /* AmbientRecordingAppTests */,
+				3F32CF632B9CC39C00D04E98 /* AmbientRecordingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F32CF422B9CC39A00D04E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F32CF872B9CEB3600D04E98 /* Assets.xcassets in Resources */,
+				3F32CF852B9CEB3600D04E98 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F32CF582B9CC39B00D04E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F32CF622B9CC39C00D04E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F32CF402B9CC39A00D04E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F32CFBD2B9D3B5B00D04E98 /* APIEndpointResponse.swift in Sources */,
+				3F32CFC22B9D3B5B00D04E98 /* APIService.swift in Sources */,
+				3F32CFEC2B9D495C00D04E98 /* AmbientAPIServing.swift in Sources */,
+				3F32CFC02B9D3B5B00D04E98 /* MockNetworkSession.swift in Sources */,
+				3F32CFC52B9D3B5B00D04E98 /* NetworkSession.swift in Sources */,
+				3F32CFCE2B9D3B5B00D04E98 /* Sorting.swift in Sources */,
+				3F32D02A2B9D67F000D04E98 /* Refreshing.swift in Sources */,
+				3F32CFC32B9D3B5B00D04E98 /* APIServing.swift in Sources */,
+				3F32D0412B9D917C00D04E98 /* AudioRecording.swift in Sources */,
+				3F32CFC62B9D3B5B00D04E98 /* NetworkSessionBuilding.swift in Sources */,
+				3F32D04A2B9DA87300D04E98 /* AppointmentDetailsViewModel.swift in Sources */,
+				3F32CF962B9D39C800D04E98 /* Recording+CoreDataClass.swift in Sources */,
+				3F32D02F2B9D696600D04E98 /* TaskStore.swift in Sources */,
+				3F32CFFF2B9D4F8F00D04E98 /* Recording+PublishingIntention.swift in Sources */,
+				3F32CF972B9D39C800D04E98 /* Recording+CoreDataProperties.swift in Sources */,
+				3F32D0432B9D92D200D04E98 /* AudioRecordingService.swift in Sources */,
+				3F32D03E2B9D7F8B00D04E98 /* CreateRecordingOperation.swift in Sources */,
+				3F32D0532B9DC32A00D04E98 /* RecordingListItem.swift in Sources */,
+				3F32CFBF2B9D3B5B00D04E98 /* JSONEndpointResponse.swift in Sources */,
+				3F32D01F2B9D5D2500D04E98 /* QueryRecordingsRequestBody.swift in Sources */,
+				3F32D0152B9D582A00D04E98 /* FetchPageOfAppointmentsOperation.swift in Sources */,
+				3F32CFF12B9D4B0200D04E98 /* PublishingIntention.swift in Sources */,
+				3F32CFFA2B9D4E3200D04E98 /* AppointmentPublishIntention.swift in Sources */,
+				3F32CFD32B9D3B6700D04E98 /* Appointment+Fetchable.swift in Sources */,
+				3F32CFBC2B9D3B5B00D04E98 /* APIEndpointRequest.swift in Sources */,
+				3F32CF982B9D39C800D04E98 /* Appointment+CoreDataClass.swift in Sources */,
+				3F32CFE22B9D423B00D04E98 /* OutboxServing.swift in Sources */,
+				3F32D0322B9D6F4A00D04E98 /* AmbientRecordingAppDataDependencies.swift in Sources */,
+				3F32D04F2B9DAFC900D04E98 /* CreateAppointmentResponseBody.swift in Sources */,
+				3F32D0512B9DB08500D04E98 /* CreateAppointmentOperation.swift in Sources */,
+				3F32CFFC2B9D4F4100D04E98 /* Appointment+PublishingIntention.swift in Sources */,
+				3F32CFC42B9D3B5B00D04E98 /* DefaultNetworkSessionBuilder.swift in Sources */,
+				3F32CFF32B9D4B6F00D04E98 /* PendingPublish.swift in Sources */,
+				3F32CFCB2B9D3B5B00D04E98 /* FetchableResultsPublisher.swift in Sources */,
+				3F32CFE72B9D437200D04E98 /* NetworkMonitoringService.swift in Sources */,
+				3F32CFD52B9D3BC100D04E98 /* Recording+Fetchable.swift in Sources */,
+				3F32CFDD2B9D3E5700D04E98 /* Date+Additions.swift in Sources */,
+				3F32CF992B9D39C800D04E98 /* Appointment+CoreDataProperties.swift in Sources */,
+				3F32CFBB2B9D3B5B00D04E98 /* HTTPMethod.swift in Sources */,
+				3F32D0062B9D53A600D04E98 /* QueryAppointmentsResponseBody.swift in Sources */,
+				3F32D0202B9D5D2500D04E98 /* QueryRecordingsResponseBody.swift in Sources */,
+				3F32D0192B9D5BD300D04E98 /* Collection+Additions.swift in Sources */,
+				3F32D0372B9D757900D04E98 /* AppointmentsListViewModel.swift in Sources */,
+				3F32CFEE2B9D4A7400D04E98 /* AmbientAPIService.swift in Sources */,
+				3F32D0042B9D534700D04E98 /* QueryAppointmentsRequestBody.swift in Sources */,
+				3F32CFC82B9D3B5B00D04E98 /* CoreDataPersistenceController.swift in Sources */,
+				3F32CFCC2B9D3B5B00D04E98 /* FetchableResultsPublishing.swift in Sources */,
+				3F32D0242B9D5EDA00D04E98 /* QueryRecordingsRequestParams.swift in Sources */,
+				3F32D0222B9D5DE100D04E98 /* QueryRecordingsOperation.swift in Sources */,
+				3F32D0092B9D53ED00D04E98 /* AmbientAPIStatusObject.swift in Sources */,
+				3F32D0002B9D4F8F00D04E98 /* RecordingPublishIntention.swift in Sources */,
+				3F32CFE92B9D45A100D04E98 /* OutboxService.swift in Sources */,
+				3F32D03C2B9D7D7500D04E98 /* CreateRecordingResponseBody.swift in Sources */,
+				3F32D04E2B9DAFC900D04E98 /* CreateAppointmentRequestBody.swift in Sources */,
+				3F32D0132B9D571C00D04E98 /* TaskBasedOperationQueue.swift in Sources */,
+				3F32D01E2B9D5D2500D04E98 /* FetchPageOfRecordingsOperation.swift in Sources */,
+				3F32CF882B9CEB3600D04E98 /* AmbientRecordingApp.swift in Sources */,
+				3F32D0352B9D74D100D04E98 /* AppointmentsList.swift in Sources */,
+				3F32CFCA2B9D3B5B00D04E98 /* Fetchable.swift in Sources */,
+				3F32D00B2B9D561E00D04E98 /* AmbientPaginationMetadata.swift in Sources */,
+				3F32CFF62B9D4C1C00D04E98 /* Codable+Additions.swift in Sources */,
+				3F32D0452B9D9DE800D04E98 /* AppointmentsListItem.swift in Sources */,
+				3F32D0172B9D593000D04E98 /* AmbientEndpoints.swift in Sources */,
+				83F902632DFFF09E00DA0BBA /* AmbientRecordingApp.xcdatamodeld in Sources */,
+				3F32CFC92B9D3B5B00D04E98 /* CoreDataPersisting.swift in Sources */,
+				3F32D0262B9D673D00D04E98 /* Appointment+Relationships.swift in Sources */,
+				3F32D0122B9D571C00D04E98 /* TaskBasedOperation.swift in Sources */,
+				3F32D00E2B9D56E500D04E98 /* QueryAppointmentsOperation.swift in Sources */,
+				3F32CFBE2B9D3B5B00D04E98 /* JSONEndpointRequest.swift in Sources */,
+				3F32D0282B9D679700D04E98 /* Recording+Relationships.swift in Sources */,
+				3F32CF892B9CEB3600D04E98 /* ContentView.swift in Sources */,
+				3F32CFE52B9D42D600D04E98 /* NetworkMonitoring.swift in Sources */,
+				3F32CFD92B9D3D9700D04E98 /* Recording+JSON.swift in Sources */,
+				3F32D0392B9D7B2E00D04E98 /* CreateRecordingRequestBody.swift in Sources */,
+				3F32D02C2B9D68A400D04E98 /* RefreshService.swift in Sources */,
+				3F32CFCD2B9D3B5B00D04E98 /* Filtering.swift in Sources */,
+				3F32CFC12B9D3B5B00D04E98 /* MockNetworkSessionBuilder.swift in Sources */,
+				3F32CFD72B9D3CA900D04E98 /* Appointment+JSON.swift in Sources */,
+				3F32D0482B9DA85C00D04E98 /* AppointmentDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F32CF562B9CC39B00D04E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F32CF5F2B9CC39B00D04E98 /* AmbientRecordingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F32CF602B9CC39C00D04E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F32CF692B9CC39C00D04E98 /* AmbientRecordingAppUITests.swift in Sources */,
+				3F32CF6B2B9CC39C00D04E98 /* AmbientRecordingAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F32CF5C2B9CC39B00D04E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F32CF432B9CC39A00D04E98 /* AmbientRecordingApp */;
+			targetProxy = 3F32CF5B2B9CC39B00D04E98 /* PBXContainerItemProxy */;
+		};
+		3F32CF662B9CC39C00D04E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F32CF432B9CC39A00D04E98 /* AmbientRecordingApp */;
+			targetProxy = 3F32CF652B9CC39C00D04E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F32CF6C2B9CC39C00D04E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F32CF6D2B9CC39C00D04E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3F32CF6F2B9CC39C00D04E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AmbientRecordingApp/Resources/AmbientRecordingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmbientRecordingApp/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.AmbientRecordingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F32CF702B9CC39C00D04E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AmbientRecordingApp/Resources/AmbientRecordingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmbientRecordingApp/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.AmbientRecordingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F32CF722B9CC39C00D04E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.AmbientRecordingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmbientRecordingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmbientRecordingApp";
+			};
+			name = Debug;
+		};
+		3F32CF732B9CC39C00D04E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.AmbientRecordingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmbientRecordingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AmbientRecordingApp";
+			};
+			name = Release;
+		};
+		3F32CF752B9CC39C00D04E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.AmbientRecordingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmbientRecordingApp;
+			};
+			name = Debug;
+		};
+		3F32CF762B9CC39C00D04E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.AmbientRecordingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmbientRecordingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F32CF3F2B9CC39A00D04E98 /* Build configuration list for PBXProject "AmbientRecordingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F32CF6C2B9CC39C00D04E98 /* Debug */,
+				3F32CF6D2B9CC39C00D04E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F32CF6E2B9CC39C00D04E98 /* Build configuration list for PBXNativeTarget "AmbientRecordingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F32CF6F2B9CC39C00D04E98 /* Debug */,
+				3F32CF702B9CC39C00D04E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F32CF712B9CC39C00D04E98 /* Build configuration list for PBXNativeTarget "AmbientRecordingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F32CF722B9CC39C00D04E98 /* Debug */,
+				3F32CF732B9CC39C00D04E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F32CF742B9CC39C00D04E98 /* Build configuration list for PBXNativeTarget "AmbientRecordingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F32CF752B9CC39C00D04E98 /* Debug */,
+				3F32CF762B9CC39C00D04E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83F902612DFFF09E00DA0BBA /* AmbientRecordingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83F902622DFFF09E00DA0BBA /* AmbientRecordingApp.xcdatamodel */,
+			);
+			currentVersion = 83F902622DFFF09E00DA0BBA /* AmbientRecordingApp.xcdatamodel */;
+			path = AmbientRecordingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F32CF3C2B9CC39A00D04E98 /* Project object */;
+}

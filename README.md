@@ -26,9 +26,7 @@ Then, navigate to `http://localhost:3000` to see the web app.
 
 ### Using the API
 
-The app is capable of creating both Appointment and Recording entities. Additionally, there are some scripts in `server/samples` that make use of the same API through the command line, to test bi-directional sync.
-
-<img src="/Documentation/Screenshots/Simulator Screenshot - iPhone 15 Pro - 2024-03-10 at 10.07.15.png?raw=true" width=400/> <img src="/Documentation/Screenshots/Simulator Screenshot - iPhone 15 Pro - 2024-03-10 at 10.07.32.png?raw=true" width=400/>
+The server API supports creating both Appointment and Recording entities. You can test it by running `yarn test`, by clicking through the web app at `localhost:3000`, by running the iOS app, or by executing scripts in `server/samples` that make use of the same API through the command line.
 
 <img src="/Documentation/Screenshots/Screenshot 2024-03-10 at 10.39.14 AM.png?raw=true" width=800/>
 
@@ -42,3 +40,5 @@ Running a native iOS application requires macOS and Xcode. You are not required 
 2. **Run**
     - Choose **“iPhone 15 Pro (Simulator)”** and press ▶️. Xcode will build & launch.
     - Confirm you can **create and view appointments** (server must be running).
+
+<img src="/Documentation/Screenshots/Simulator Screenshot - iPhone 15 Pro - 2024-03-10 at 10.07.15.png?raw=true" width=400/> <img src="/Documentation/Screenshots/Simulator Screenshot - iPhone 15 Pro - 2024-03-10 at 10.07.32.png?raw=true" width=400/>

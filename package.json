@@ -1,0 +1,19 @@
+{
+  "name": "ambient-recording-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -s first \"yarn workspace web dev\" \"yarn workspace server dev\"",
+    "test": "yarn test:server && yarn test:e2e",
+    "test:server": "yarn workspace server test",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.7",
+    "concurrently": "^9.2.0"
+  },
+  "workspaces": [
+    "web",
+    "server"
+  ]
+}

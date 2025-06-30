@@ -1,35 +1,40 @@
-# AmbientRecordingApp
+# AmbientRecordingAppsStarter
 
-Quick demo of bi-directional sync with an app and a mock server sharing an API contract.
+Quick demo of bi-directional sync with a server and web/iOS clients, sharing an API contract.
 
-The app should sync data efficiently and robustly, and needed to be done quickly (in one day). Many shortcuts are made for that reason, but I hope you don't see them right away!
+The API is described in detail in `Documentation/` folder. It is only partially implemented here.
 
-Please see detailed notes on the project and decisions made in `Documentation/`.
-
+Your task is to enhance the quality guards on this project by adding and improving tests, CI, or anything else you can think of!
 
 ### Server Set Up
 
 The mock server is easy to set up and run if you have Node installed locally:
 
 ```
-cd MockServer
-npm i
-node server.mjs
-```
+# Ensure you have the right version of Node running
+nvm install
+nvm use
 
-### Web App Set Up
-The web app uses Vite to run locally:
-
-```
 # install dependencies
 yarn
-# run in local development mode
+
+# run web server and host web client locally
 yarn dev
 ```
 
+Then, navigate to `http://localhost:3000` to see the web app.
+
+### Using the API
+
+The app is capable of creating both Appointment and Recording entities. Additionally, there are some scripts in `server/samples` that make use of the same API through the command line, to test bi-directional sync.
+
+<img src="/Documentation/Screenshots/Simulator Screenshot - iPhone 15 Pro - 2024-03-10 at 10.07.15.png?raw=true" width=400/> <img src="/Documentation/Screenshots/Simulator Screenshot - iPhone 15 Pro - 2024-03-10 at 10.07.32.png?raw=true" width=400/>
+
+<img src="/Documentation/Screenshots/Screenshot 2024-03-10 at 10.39.14 AM.png?raw=true" width=800/>
+
 ### Running iOS App Locally
 
-Running a native iOS application requires macOS and Xcode.
+Running a native iOS application requires macOS and Xcode. You are not required to run the app for this exercise, but we appreciate seeing your skill if you are confident writing tests for an iOS app.
 
 1. **Prereqs**
     - macOS 12+, **Xcode 15**+ (free on the Mac App Store)
@@ -37,11 +42,3 @@ Running a native iOS application requires macOS and Xcode.
 2. **Run**
     - Choose **“iPhone 15 Pro (Simulator)”** and press ▶️. Xcode will build & launch.
     - Confirm you can **create and view appointments** (server must be running).
-
-### Creating records
-
-The app is capable of creating both Appointment and Recording entities. Additionally, there are some scripts in `MockServer/samples` that make use of the same API through the command line, to test bi-directional sync.
-
-<img src="/Documentation/Screenshots/Simulator Screenshot - iPhone 15 Pro - 2024-03-10 at 10.07.15.png?raw=true" width=400/> <img src="/Documentation/Screenshots/Simulator Screenshot - iPhone 15 Pro - 2024-03-10 at 10.07.32.png?raw=true" width=400/>
-
-<img src="/Documentation/Screenshots/Screenshot 2024-03-10 at 10.39.14 AM.png?raw=true" width=800/>

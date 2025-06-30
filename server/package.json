@@ -1,10 +1,11 @@
 {
-  "name": "mockserver",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.mjs",
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,11 @@
     "express": "^4.21.2",
     "multer": "^2.0.1",
     "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.8",
+    "supertest": "^7.1.1",
+    "vitest": "^3.2.4"
   }
 }

@@ -5,16 +5,18 @@ import {
 	handleQueryAppointmentRequest,
 	handleDeleteAppointmentRequest,
 	handleFindAppointmentRequest
-} from "./server/appointments.mjs";
+} from "./src/appointments.mjs";
 import {
 	handleCreateRecordingRequest,
 	handleQueryRecordingsRequest
-} from "./server/recordings.mjs";
+} from "./src/recordings.mjs";
 
 
 // MARK: Set Up
 
 const app = express();
+export default app;
+
 app.use(bodyParser.json())
 
 import cors from "cors";

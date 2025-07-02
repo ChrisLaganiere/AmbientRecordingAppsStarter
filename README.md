@@ -20,6 +20,9 @@ yarn
 
 # run web server and host web client locally
 yarn dev
+
+# or, instead, run tests:
+yarn test
 ```
 
 Then, navigate to `http://localhost:3000` to see the web app.
